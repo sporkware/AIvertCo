@@ -1,0 +1,16 @@
+# Ignore everything in parent directories
+../*
+
+# But allow specific files in this virtco directory
+!SCOPE.md
+!AGENTS.md
+!*.md
+!*.json
+!*.js
+!*.ts
+!*.rs
+!*.toml
+!*.lock
+!src/
+!tests/
+!docs/
